@@ -23,7 +23,7 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps: 
+My pipeline consisted of 9 steps: 
 
 1. Conversion of the image to Grayscale
 2. Applying a Gaussian smoothing filter
@@ -44,13 +44,10 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be what would happen when there is no line or strongly intermittent line then the algorithm wouldn't be able to draw from the bottom of the picture
 
-Another shortcoming could be ...
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement would be to improve the stability of the lines so that they look smoother
